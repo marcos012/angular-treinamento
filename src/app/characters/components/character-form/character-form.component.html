@@ -1,0 +1,9 @@
+<form (ngSubmit)="submit()" [formGroup]="characterForm">
+    <label for="name">Name</label>
+    <input type="text" placeholder="Claudio" id="name" formControlName="name">
+
+    <label for="age">Age</label>
+    <input type="number" placeholder="16 years old" id="age" formControlName="age">
+
+    <button type="submit">Submit</button>
+</form>

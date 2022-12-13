@@ -1,0 +1,29 @@
+img {
+  height: 80%;
+}
+span {
+  margin-left: 10px;
+}
+.container {
+  background: #09493d;
+  height: 100vh;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.character-container {
+  background-color: #1F6032;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  padding: 20px;
+  height: 60vh;
+}
+
+.content {
+  margin-left: 20px;
+  line-height: 50px;
+}

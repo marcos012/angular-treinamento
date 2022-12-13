@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Characters</h1>
+  <p *ngIf="isLoading">Loading...</p>
+  <button  (click)="onNavigateToNew()">Novo Personagem</button>
+
+  <div class="list">
+    <div *ngFor="let character of characters" >
+      <app-card (click)="onNavigateToDatail(character)" (cardClick)="cardClick($event)" [image]="character.image" [title]="character.name" [description]="character.name"></app-card>
+    </div>
+  </div>
+
+</div>
+
+
+

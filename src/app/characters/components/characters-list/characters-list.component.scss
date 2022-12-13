@@ -1,0 +1,18 @@
+h1, p {
+  text-align: center;
+}
+
+.container {
+  background: #09493d;
+  min-height: 100vh;
+}
+
+.list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.list > * {
+  margin-top: 1em;
+}
